@@ -149,6 +149,23 @@ Fork : It is a copy in remote server from my account to another account
 Clone : It is a copy of our project from remote server to local server.
 
 
+For the first time getting the code to the developer need use clone command the local server
+git clone <URL>
+Ex : git clone https://github.com/MSivaP/Assignment_1.git
+
+
+--------------------------
+DEV1
+--------------------------
+Dev 1 added new file in the project 
+touch dev1.txt
+-------------------------
+DEV2 
+-------------------------
+Dev2 added new file in the project
+touch dev2.txt
+
+First DEV1 pushed the code in repositery then DEV2 need to pull the code after words DEV2 to push the code into repositery.
 
 
 
@@ -215,5 +232,6 @@ Build code process called as continuous integration process (CI process)
 PIPE LINE :
 If run the above stages in build codes process in sequence order without manual intervention then it call as PIPE LINE.
 Build code process === Continuous Integration process =  CI PIPE LINE
+
 
 
